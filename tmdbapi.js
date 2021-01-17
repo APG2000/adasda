@@ -1,5 +1,5 @@
 $().ready(function () {
-    $("#a").on( 'touchstart click',function () {
+    $("#a").on( 'tap click',function () {
         var valor = $("#search").val();
         console.log(valor)
         var youtubeuurl = 'https://www.youtube.com/watch?v='
