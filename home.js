@@ -35,7 +35,7 @@ $().ready(function () {
 
 
             //console.log(result0img);
-            //console.log(result1img);                                                                                            ///ALERT AAHAH EU SOU MESMO BURO AAHAH DEVIA TER USADO UM FOR PRA FAZER ESTA MERDA TODA MAS NÂO QUEIRA PENSAR MUITO RSS ALEM DO MAIS PRECISO ESTUDAR ALGA
+            //console.log(result1img);                                                                                            ///ALERT AAHAH EU SOU MESMO BURO AAHAH DEVIA TER USADO UM FOR PRA FAZER ESTA MERDA TODA MAS NÃ‚O QUEIRA PENSAR MUITO RSS ALEM DO MAIS PRECISO ESTUDAR ALGA
             //console.log(result2img);
             //console.log(result3img);
             //console.log(result4img);
@@ -43,7 +43,7 @@ $().ready(function () {
             //console.log(result5img);
             //console.log(result6img);
             //console.log(result7img);
-            //console.log(result8img);                                                                                            ///ALERT AAHAH EU SOU MESMO BURO AAHAH DEVIA TER USADO UM FOR PRA FAZER ESTA MERDA TODA MAS NÂO QUEIRA PENSAR MUITO RSS ALEM DO MAIS PRECISO ESTUDAR ALGA
+            //console.log(result8img);                                                                                            ///ALERT AAHAH EU SOU MESMO BURO AAHAH DEVIA TER USADO UM FOR PRA FAZER ESTA MERDA TODA MAS NÃ‚O QUEIRA PENSAR MUITO RSS ALEM DO MAIS PRECISO ESTUDAR ALGA
             //console.log(result9img);
             //console.log(result10img);
             //console.log(result11img);
@@ -99,7 +99,7 @@ $().ready(function () {
                 self.imgresults (imgurl + data.results[a].poster_path)
                 //console.log("imagem:"+imgurl + data.results[a].poster_path)
 
-                console.log(self.imgresults()) // Array of imgUrls cam be used to do some shit ahah 
+                console.log(self.imgresults()) // Array of imgUrls can be used to do some shit ahah 
             }
        
         },
@@ -115,7 +115,7 @@ $().ready(function () {
         */
         var $e = $(e.relatedTarget);
         var idx = $e.index();
-        var itemsPerSlide = 2;
+        var itemsPerSlide = 4;
         var totalItems = $('.carousel-item').length;
 
         if (idx >= totalItems - (itemsPerSlide - 1)) {
